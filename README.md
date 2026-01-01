@@ -46,35 +46,28 @@ The dataset contains the following features:
 
 ## 🛠️ Tech Stack
 
-<b>Backend:</b>
-- **Python**
-- **FastAPI**
-- **Uvicorn**
-- **Pydantic**
+### Backend:
+- **Language:** Python
+- **Framework:** FastAPI
+- **ASGI Server:** Uvicorn
+- **Validation:** Pydantic
 
-<b>Frontend:</b>
-- **JavaScript**
-- **React**
-- **Vite**
-- **Tailwind CSS v3**
-- **Node.js v22+ & npm**
+### Frontend:
+- **Framework:** React.js (vite)
+- **Styling:** Tailwind CSS v3
+- **Runtime:** Node.js v22+ & npm
 
-<b>Data Science & ML:</b>
-- **Pandas**
-- **NumPy**
-- **SciPy**
-- **Matplotlib & Seaborn**
-- **XGBoost**
-- **LightGBM**
-- **CatBoost**
-- **scikit-learn**
-- **PyTorch**
-- **Optuna**
+### Data Science & ML:
+- **Data Handling:** Pandas
+- **Numerical Computing:** NumPy & SciPy
+- **Data Visualization:** Matplotlib & Seaborn
+- **Machine Learning Algorithms:** XGBoost, LightGBM, CatBoost, scikit-learn
+- **Deep Learning Framework:** PyTorch
+- **Hyperparameter Optimization:** Optuna
 
-<b>DevOps & Experiments:</b>
-- **Docker**
-- **Docker Desktop**
-- **Jupyter Notebooks**
+### DevOps & Experiments:
+- **Containerization:** Docker & Docker Desktop
+- **Experimentation:** Jupyter Notebooks
 
 ---
 
