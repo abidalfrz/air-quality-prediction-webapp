@@ -13,6 +13,8 @@ This project aims to:
 - **Democratize access to air quality insights** by deploying the model into a user-friendly web application.
 - **Optimize prediction reliability** by evaluating models using **Accuracy** and **Weighted F1-Score** to handle potential class imbalances across different air quality levels.
 
+---
+
 ## 🧠 Features
 
 - Real-Time Prediction: Users can input environmental and meteorological data to receive instant air quality predictions.
