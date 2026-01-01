@@ -1,0 +1,24 @@
+services:
+  # Backend Service
+  backend:
+    build: ./backend
+    container_name: aq-backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./backend/artifacts:/app/artifacts
+    environment:
+      - WATCHFILES_FORCE_POLLING=true
+
+  # Frontend Service
+  frontend:
+    build: ./frontend
+    container_name: aq-frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend/src:/app/src
+      - ./frontend/public:/app/public
+    depends_on:
+      - backend
