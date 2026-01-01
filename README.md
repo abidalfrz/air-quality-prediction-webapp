@@ -66,7 +66,7 @@ The dataset contains the following features:
 - **LightGBM**
 - **CatBoost**
 - **scikit-learn**
-- **Torch**
+- **PyTorch**
 - **Optuna**
 
 <b>DevOps & Experiments:</b>
