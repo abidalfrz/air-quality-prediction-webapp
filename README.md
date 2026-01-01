@@ -6,7 +6,7 @@ This repository contains a comprehensive full-stack web application designed to 
 
 # 📌 Problem Statement
 
-Air pollution is a critical global health issue, contributing to respiratory diseases and environmental degradation. Accurate and timely monitoring is essential for public safety and urban planning. However, air quality dynamics are highly complex, influenced by non-linear interactions between meteorological conditions (temperature, humidity), pollutants (PM2.5, NO2), and meteorological factors.
+Air pollution is a critical global health issue, contributing to respiratory diseases and environmental degradation. Accurate and timely monitoring is essential for public safety and urban planning. However, air quality dynamics are highly complex, influenced by non-linear interactions between meteorological conditions (temperature, humidity), pollutants (PM2.5, NO2), and other environmental factors.
 
 This project aims to:
 - **Develop a robust machine learning classifier** capable of predicting Air Quality Indices (Good, Moderate, Poor, Hazardous) based on environmental and meteorological data.
