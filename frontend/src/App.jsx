@@ -18,6 +18,9 @@ function App() {
         </main>
 
         {/* <Footer /> */}
+        <div className="bg-slate-200 text-center p-4 text-sm text-slate-600">
+          &copy; {new Date().getFullYear()} Air Quality Prediction. All rights reserved.
+        </div>
         
       </div>
     </Router>
