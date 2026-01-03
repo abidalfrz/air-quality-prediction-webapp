@@ -209,9 +209,9 @@ This command will build and start both the backend and frontend services defined
 
 Open your web browser and navigate to the URL shown in your frontend terminal (usually http://localhost:5173).
 
-1. Use the "Upload File" page to send files to the server.
-2. Navigate to the "View Files" page to view and access your uploaded files.
-3. Click on a file card to view or download the file.
+1. Click on the "Start Prediction" button to navigate to the prediction form.
+2. Fill in the required environmental and meteorological data.
+3. Submit the form to receive air quality predictions.
 
 ---
 
