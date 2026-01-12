@@ -131,7 +131,7 @@ air-quality-prediction-webapp/
 1. **Data Collection**: The dataset contains train and test CSV files with various environmental and demographic features related to air quality.
 2. **Exploratory Data Analysis (EDA)**: Conducted in `eda.ipynb` to understand data distributions and relationships.
 3. **Data Preprocessing**: Handled in `eda.ipynb` and `preprocessing.py` to clean and transform data for modeling.
-4. **Model Training**: Experiments with different algorithms in `model.ipynb`, leading to the selection of a Voting Classifier, combining CatBoost, SVC, and Gradient Boosting with Optimized weights using SLSQP method. This approach give the baccuracy score **92.16%** on the validation set, **93%** on the public leaderboard, and **92.33%** on the private leaderboard.
+4. **Model Training**: Experiments with different algorithms in `model.ipynb`, leading to the selection of a Voting Classifier, combining CatBoost, SVC, and Gradient Boosting with Optimized weights using SLSQP method. This approach give the accuracy score **92.16%** on the validation set, **93%** on the public leaderboard, and **92.33%** on the private leaderboard.
 5. **Model Evaluation**: Performance metrics such as accuracy and F1-score are calculated to assess model performance.
 6. **Model Deployment**: The trained model and preprocessors are saved in the `artifacts/` directory and integrated into the FastAPI app for API-based predictions and served to the React as frontend for user interaction. Then, containerized using Docker for easy deployment.
 
